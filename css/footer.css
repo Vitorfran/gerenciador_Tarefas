@@ -1,0 +1,19 @@
+
+footer{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+   background-color: #007B;
+    font-size: small;
+    width: 100%;
+    position: fixed;
+    bottom: 0%;
+    left: 0%;
+    padding: 20px;
+    
+
+}
+.textofooter{
+    font-weight: lighter;
+    color: #eee;
+
+}

@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif; 
+    background-color: #f4f4f4;
+  }
+
+.menucadUser {
+    border: 1px solid #007B; 
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+    width: 25%; 
+    box-sizing: border-box; 
+    background-color: #fff; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+    margin: 0 auto; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    background-color: rgba(255, 255, 255, 0.733);
+    margin-top: 10px;
+
+}
+
+.input {
+    width: 100%; /* Faz os inputs ocuparem toda a largura do contêiner */
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.input:focus {
+    outline: none;
+    border-color: #007BFF; 
+}
+
+.enviar {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: #007B;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.enviar:hover {
+    background-color: rgba(0, 0, 0, 0.733); 
+}
+
+.textoCad{
+    color: #000000;
+    text-align: left;
+}
+
+
+
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .lista {
+        
+        gap: 1rem;
+        padding: 0;
+        text-align: center;
+
+    }
+
+    .textoPrincipal {
+        padding-bottom: 1rem;
+    }
+
+    .menucadUser {
+        border: 1px solid #007B; 
+        padding: 20px;
+        border-radius: 15px;
+        display: flex;
+        flex-direction: column; 
+        justify-content: center;
+        align-items: center;
+        width: 70%; 
+        box-sizing: border-box; 
+        background-color: #fff; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+        margin: 0 auto; 
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        background-color: rgba(255, 255, 255, 0.733);
+        margin-top: 50px;
+    
+    }
+
+}

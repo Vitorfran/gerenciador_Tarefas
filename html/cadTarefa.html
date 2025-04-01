@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Tarefas</title>
+    <link rel="stylesheet" href="/css/header.css">
+    <link rel="stylesheet" href="/css/footer.css">
+    <link rel="stylesheet" href="/css/cadTarefa.css">
+    <link rel="shortcut icon" href="/img/favicon_io (1)/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <header class="cabeçalho"> 
+        <h1 class=""><a class="textoPrincipal"  href="../index.html">Gerenciador de Tarefas </a></h1> <!-- cabeçalho -->
+         <nav>
+             <ul class="lista">
+                 <li> <a  class="links" href="cadUsuario.html">Cadastro de Usuario</a>
+                 </li>
+                 <li>  <a class="links" href="cadTarefa.html">Cadastro de Tarefas</a>
+                 </li>
+                <li > <a class="links" href="gerenciador.html">Gerenciar Tarefas </a>
+                </li>
+             </ul>
+            </nav>
+        </header>
+        <main>  <!-- Conteudo -->
+            <section> <!-- Sessao 1-->
+                 <h1 class="textocadPrincial" >Cadastrar Tarefas </h1>
+                 <div class="menucadTarefa">
+                
+                    <form action="post">
+                        <p class="textoCad"> Nome Para a Tarefa:</p>
+                        <input class="input" type="text" name="" id="nomeTarefa"placeholder="Digite o nome Para a Tarefa">
+
+                        <p class="textoCad"> Usuario:</p>
+                        <input class="input" type="text" id="usuario" placeholder="Digite seu Usuario">
+    
+                        <p class="textoCad">Dia:</p>
+                       <input class="input" type="date" name="" id="data">
+    
+                        <p class="textoCad">Horario: </p>
+                        <input  class="input" type="time" name="" id="horario" placeholder="">
+    
+                        <button class="enviar" type="submit">Enviar</button>
+    
+    
+                    </form>
+    
+                 </div>
+        </main>
+        <footer> <!-- Rodapé -->
+                <p class="textofooter" >&copy; Todos os Direitos Reservados</p>
+            </footer>
+</body>
+</html>

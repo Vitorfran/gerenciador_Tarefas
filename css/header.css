@@ -1,0 +1,76 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #007B; /* Mantive sua cor original */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3%;
+}
+
+.lista {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+}
+
+.links {
+    color: white;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: color 0.3s;
+}
+
+.links:hover,
+.textoPrincipal:hover {
+    color: rgba(179, 179, 240, 0.733);
+}
+
+.textoPrincipal {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+main {
+    text-align: center;
+    margin: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.rodape {
+    text-align: center;
+    padding: 1rem;
+    background-color: #f1f1f1;
+}
+
+.titulosessao1,
+.titulosessao2 {
+    font-size: 50px;
+}
+
+/* Responsividade */
+@media (max-width: 600px) {
+    header {
+        flex-direction: column;
+        text-align: center;
+        padding: 2rem 0;
+    }
+
+    .lista {
+        border-radius: 15px 15px 15px;
+        background-color: rgba(5, 5, 73, 0.733);
+        gap: 1rem;
+        padding: 0;
+        text-align: center;
+
+    }
+
+    .textoPrincipal {
+        padding-bottom: 1rem;
+    }
+}
