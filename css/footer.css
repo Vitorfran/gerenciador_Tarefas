@@ -5,10 +5,11 @@ footer{
    background-color: #007B;
     font-size: small;
     width: 100%;
-    position: fixed;
-    bottom: 0%;
+     position: fixed; 
+    bottom: 0% !important;
     left: 0%;
     padding: 20px;
+    margin-bottom: 0px;
     
 
 }

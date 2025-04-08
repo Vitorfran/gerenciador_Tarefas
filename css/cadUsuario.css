@@ -4,6 +4,7 @@
 }
 
 body {
+    max-height: max-content;
     font-family: Arial, sans-serif; 
     background-color: #f4f4f4;
   }
@@ -16,14 +17,16 @@ body {
     flex-direction: column; 
     justify-content: center;
     align-items: center;
-    width: 25%; 
+    width: 25%;
+    height: 100%;
     box-sizing: border-box; 
     background-color: #fff; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-    margin: 0 auto; 
+    margin: auto; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
     background-color: rgba(255, 255, 255, 0.733);
     margin-top: 10px;
+    /* margin-bottom: 126px; */
 
 }
 
@@ -60,6 +63,8 @@ body {
 .textoCad{
     color: #000000;
     text-align: left;
+    font-size: small;   
+    font-weight: bold;
 }
 
 

@@ -1,4 +1,36 @@
-*{
-    margin: 0%;
-    padding: 0%;
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
 }
+
+main {
+    flex: 1; /* Faz o main crescer e empurrar o footer para baixo */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centraliza o conteúdo no meio */
+    align-items: center; /* Centraliza horizontalmente */
+    padding-bottom: 50px; /* Evita que o footer sobreponha o conteúdo */
+}
+
+.card {
+    max-width: 300px; /* Defina uma largura máxima */
+    width: 100%;
+    margin: 20px auto; /* Centraliza o card */
+    padding: 20px;
+    min-height: 250px; /* Garante que tenha altura suficiente */
+}
+
+.footerIndex {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    background-color: #007B;
+    font-size: small;
+    width: 100%; /* ✅ Garante que o footer ocupe toda a largura */
+    position: relative; /* ✅ Permite que o conteúdo empurre o footer */
+    padding: 20px;
+    margin-top: auto; /* ✅ Mantém o footer sempre no fim da página */
+}
+
